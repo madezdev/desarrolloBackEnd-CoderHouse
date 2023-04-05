@@ -58,29 +58,3 @@ class ProductManager {
     }
 
 }
-
-const carne = new ProductManager();
-
-const testProduct = {
-    title: 'Carne',
-    description: 'Novillo',
-    price:1500,
-    thumbnail:'no aplica',
-    code: 'AA20',
-    stock:100,
-}
-
-const testProduct2 = {
-    title: 'Pollo',
-    description: 'Pechuga',
-    price:500,
-    thumbnail:'no aplica',
-    code: 'AA20',
-    stock:100,
-}
-
-carne.addProduct(testProduct)
-carne.addProduct(testProduct2)
-
-console.log(carne.getProducts());
-// console.log(carne.getProductById(2));
