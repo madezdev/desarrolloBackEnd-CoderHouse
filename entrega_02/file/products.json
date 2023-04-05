@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Teglado Gamer Redragon",
+    "description": "Redragon brown ingles US color negro",
+    "price": 17465,
+    "thumbnail": "url",
+    "code": "K630",
+    "stock": 5,
+    "id": 1
+  },
+  {
+    "title": "Teglado genius",
+    "description": "Español de 78 teclas",
+    "price": 765,
+    "thumbnail": "url",
+    "code": "GN130",
+    "stock": 6,
+    "id": 3
+  }
+]
