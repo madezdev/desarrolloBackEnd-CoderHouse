@@ -1,0 +1,48 @@
+
+[
+    {
+      "title": "Teglado Gamer Redragon",
+      "description": "Redragon brown ingles US color negro",
+      "price": 17465,
+      "thumbnail": "url",
+      "code": "K630",
+      "stock": 5,
+      "id": 1
+    },
+    {
+      "title": "Teglado genius",
+      "description": "Español de 78 teclas",
+      "price": 765,
+      "thumbnail": "url",
+      "code": "GN130",
+      "stock": 6,
+      "id": 2
+    },
+    {
+      "title": "Mouse Gamer",
+      "description": "Redragon con 6 botones",
+      "price": 1765,
+      "thumbnail": "url",
+      "code": "MR930",
+      "stock": 16,
+      "id": 3
+    },
+    {
+      "title": "Mouse Genius",
+      "description": "Mouse inalambre",
+      "price": 565,
+      "thumbnail": "url",
+      "code": "MG770",
+      "stock": 38,
+      "id": 4
+    },
+    {
+      "title": "Auricular Gamer",
+      "description": "Redragon",
+      "price": 7765,
+      "thumbnail": "url",
+      "code": "AR330",
+      "stock": 6,
+      "id": 5
+    }
+  ]
