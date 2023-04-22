@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Teglado Genius",
+    "description": "Ingles",
+    "price": 1635,
+    "thumbnail": "url",
+    "code": "GN633",
+    "stock": 29,
+    "id": 3
+  },
+  {
+    "title": "Mouse Genios",
+    "description": "Mouse Gammer 6 teclas",
+    "price": 5000,
+    "thumbnail": "url",
+    "code": "MGG6T",
+    "stock": 15,
+    "id": 4
+  },
+  {
+    "title": "Teglado HP",
+    "description": "Español",
+    "price": 1265,
+    "thumbnail": "url",
+    "code": "HP633",
+    "stock": 20,
+    "id": 5
+  }
+]
