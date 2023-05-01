@@ -1,0 +1,63 @@
+<div>
+  <div class="container h-100">
+    <div class="row h-100">
+      <div class="col-md-4 my-auto">
+        <form id="productForm" class="card card-body rounded-2">
+          <h1 class="h3 mb-5">Agregar producto</h1>
+          <label for="title" class="mb-1">Producto</label>
+          <input
+            id="title"
+            type="text"
+            name="title"
+            placeholder="Nombre del producto"
+            class="form-control rounded-2 mb-3"
+            autofocus
+          />
+          <label for="description" class="mb-1">Descripción</label>
+          <textarea
+            name="description"
+            id="description"
+            rows="2"
+            placeholder="Describa el producto"
+            class="form-control rounded-2 mb-3"
+          ></textarea>
+          <label for="price" class="mb-1">Precio</label>
+          <input
+            id="price"
+            type="number"
+            name="price"
+            placeholder="$XXX"
+            class="form-control rounded-2 mb-3"
+            autofocus
+          />
+          <label for="code" class="mb-1">Código</label>
+          <input
+            id="code"
+            type="text"
+            name="code"
+            placeholder="XXXX"
+            class="form-control rounded-2 mb-3"
+            autofocus
+          />
+          <label for="stock" class="mb-1">Stock</label>
+          <input
+            id="stock"
+            type="number"
+            name="stock"
+            placeholder="XXXX"
+            class="form-control rounded-2 mb-3"
+            autofocus
+          />
+          <button class="btn btn-dark rounded-2">Guardar</button>
+        </form>
+      </div>
+      <div class="col-md-8 py-3" id="products">
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="/socket.io/socket.io.min.js"></script>
+<script src="/js/ui.js"></script>
+<script src="/js/socket.js"></script>
+<script src="/js/main.js"></script>

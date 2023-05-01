@@ -1,0 +1,22 @@
+<div>
+  <h2>Lista de productos</h2>
+  {{#if products}}
+    {{#each products}}
+      <div class="card text-white bg-black mb-2" style="max-width: 30rem;">
+        <div class="card-header">
+          <h4 class="card-title">Producto: {{this.title}}</h4>
+          <div class="card-body">
+
+            <p class="card-text">Descripción: {{this.description}}</p>
+            <p class="card-text">Precio: {{this.price}}</p>
+            <p class="card-text">Código: {{this.code}}</p>
+            <p class="card-text">Stock: {{this.stock}}</p>
+
+          </div>
+        </div>
+      </div>
+    {{/each}}
+  {{else}}
+    <p>No hay productos</p>
+  {{/if}}
+</div>
